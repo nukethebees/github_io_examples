@@ -16,6 +16,9 @@ extern "C" {
             return 0;
         }
 
+        // Save the info ptr
+        g_rec = rec;
+
         ShowConsoleMsg("Hello world!");
 
         return 1;
